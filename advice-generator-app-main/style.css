@@ -1,0 +1,60 @@
+html,
+body { height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(218, 23%, 16%);
+    font-family: 'Manrope', sans-serif;
+
+}
+.parent {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+height: 300px;
+width: 480px;
+background-color: hsl(217, 19%, 24%);
+border-radius: 20px;
+}
+
+.id {
+    color: hsl(150, 100%, 66%);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 10px;
+}
+.text {
+    color : hsl(193, 38%, 86%);
+    font-size: 18px;
+    text-align: center;
+}
+
+button {
+    background-color: hsl(150, 100%, 66%);
+    padding: 15px;
+    border: 0;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    position: relative;
+    top: 88px;
+    margin-top: 30px;
+}
+
+button:hover {
+    background-color: hsl(150, 50%, 47%);
+}
+
+.line {
+    position: relative;
+    top : 40px
+}
+
+button img {
+    width: 15px;
+}
+
